@@ -5,9 +5,9 @@
 <plugin
 	id="de.paginagmbh.oxygen.clipboardEditorVariable"
     name="ClipboardEditorVariable"
-    description="Adds support for ${clipboard} variable"
+    description="This plugin adds support for new editor variable ${clipboard} which can be used to access clipboard content in plain text."
     version="0.0.1-SNAPSHOT"
-    vendor="pagina GmbH, Tübingen, Germany"
+    vendor="pagina GmbH Publikationstechnologien | www.pagina-online.de"
     class="de.paginagmbh.oxygen.clipboardEditorVariable.ClipboardEditorVariablePlugin"
     classLoaderType="preferReferencedResources">
     <runtime>

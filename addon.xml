@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xt:extensions xmlns:xt="http://www.oxygenxml.com/ns/extension"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.oxygenxml.com/ns/extension http://www.oxygenxml.com/ns/extension/extensions.xsd">
+
+	<xt:extension id="ClipboardEditorVariable">
+		<xt:location href="https://github.com/paginagmbh/oxygen-plugin_clipboard-editor-variable/releases/download/v0.0.1/clipboardEditorVariable-v0.0.1.zip"/>
+		<xt:version>0.0.1</xt:version>
+		<xt:oxy_version>15.0+</xt:oxy_version>
+		<xt:type>plugin</xt:type>
+		<xt:author>pagina GmbH Publikationstechnologien | www.pagina-online.de</xt:author>
+		<xt:name>${clipboard} editor variable for oXygen</xt:name>
+
+		<xt:description xmlns="http://www.w3.org/1999/xhtml">
+			<h1>${clipboard} editor variable for oXygen</h1>
+			<p>This plugin adds support for new editor variable ${clipboard} which can be used to access clipboard content in plain text.</p>
+			<p>When using ${clipboard} (e.g. in a code template) it will insert the contents from your clipboard in plain text.</p>
+			<p>The editor variable may be used in all contexts where oXygen allows to use editor variables. However it will not show up in the context menu of the "green arrow button variable chooser"!</p>
+			<hr/>
+			<h2>Changelog</h2>
+			<h3>Version 0.0.1 (2016-04-08)</h3>
+			<ul>
+				<li>initial release</li>
+			</ul>
+		</xt:description>
+
+		<xt:license>
+<![CDATA[
+The MIT License (MIT)
+
+Copyright (c) 2016 pagina GmbH (www.pagina-online.de)
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+]]></xt:license>
+	</xt:extension>
+</xt:extensions>

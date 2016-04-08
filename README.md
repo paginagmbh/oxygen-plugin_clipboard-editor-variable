@@ -1,7 +1,7 @@
-`${clipboard}` editor variable for oXygen [![Release](https://img.shields.io/github/release/paginagmbh/oxygen-plugin_clipboard-editor-variable.svg)](https://github.com/paginagmbh/oxygen-plugin_clipboard-editor-variable/releases/latest)
+${clipboard} editor variable for oXygen [![Release](https://img.shields.io/github/release/paginagmbh/oxygen-plugin_clipboard-editor-variable.svg)](https://github.com/paginagmbh/oxygen-plugin_clipboard-editor-variable/releases/latest)
 ============================================
 
-This plugin adds support for a `${clipboard}` editor variable in <oXygen/> XML Editor.
+This plugin adds support for new editor variable `${clipboard}` which can be used to access clipboard content in plain text in <oXygen/> XML Editor.
 
 When using `${clipboard}` (e.g. in a code template) it will insert the contents from your clipboard in **plain text**.
 
@@ -12,11 +12,26 @@ However it will not show up in the context menu of the "green arrow button varia
 Download & Install
 ------------------
 
+### oXygen Addon installation
+1. In the oXygen menu, open _Help » Install new add-ons..._
+2. In the field _Show add-ons from_, add this URL: `https://raw.githubusercontent.com/paginagmbh/oxygen-plugin_clipboard-editor-variable/master/addon.xml`
+3. The _ClipboardEditorVariable_ add-on will be displayed. Follow the steps to install it and restart oXygen.
+4. Optional: check _Enable automatic updates checking_ in _Options » Preferences » Add-ons_ to get update notifications
+
+### Manual installation
 1. Check the [releases page](https://github.com/paginagmbh/oxygen-plugin_clipboard-editor-variable/releases) to get the latest distribution.
 2. Download and unzip the file.
 3. Copy the folder `clipboardEditorVariable/` to your local oXygen plugin directory
   * _e.g. `C:\Program Files\Oxygen XML Editor 17\plugins\`_
 4. Restart oXygen
+
+
+License
+-------
+
+*_ClipboardEditorVariable_* plugin is released under the terms of the [MIT License](LICENSE).
+
+Copyright © 2016 [pagina GmbH Publikationstechnologien, Tübingen, Germany](http://www.pagina-online.de)
 
 
 Building the plugin
