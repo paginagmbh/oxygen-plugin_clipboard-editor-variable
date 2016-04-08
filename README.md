@@ -1,5 +1,5 @@
-`${clipboard}` editor variable for <oXygen/>
-==========================================
+`${clipboard}` editor variable for oXygen [![Release](https://img.shields.io/github/release/paginagmbh/oxygen-plugin_clipboard-editor-variable.svg)](https://github.com/paginagmbh/oxygen-plugin_clipboard-editor-variable/releases/latest)
+============================================
 
 This plugin adds support for a `${clipboard}` editor variable in <oXygen/> XML Editor.
 
@@ -7,6 +7,16 @@ When using `${clipboard}` (e.g. in a code template) it will insert the contents 
 
 The editor variable may be used in all contexts where oXygen allows to use editor variables.
 However it will not show up in the context menu of the "green arrow button variable chooser"!
+
+
+Download & Install
+------------------
+
+1. Check the [releases page](https://github.com/paginagmbh/oxygen-plugin_clipboard-editor-variable/releases) to get the latest distribution.
+2. Download and unzip the file.
+3. Copy the folder `clipboardEditorVariable/` to your local oXygen plugin directory
+  * _e.g. `C:\Program Files\Oxygen XML Editor 17\plugins\`_
+4. Restart oXygen
 
 
 Building the plugin
