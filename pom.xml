@@ -15,7 +15,7 @@
 		<maven.compiler.source>1.7</maven.compiler.source>
 		<maven.compiler.target>1.7</maven.compiler.target>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-		<oxygen.sdk.version>17.1.0.4</oxygen.sdk.version>
+		<oxygen.sdk.version>18.1.0.0</oxygen.sdk.version>
 	</properties>
 
 	<dependencies>

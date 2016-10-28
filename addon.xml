@@ -4,8 +4,8 @@
 	xsi:schemaLocation="http://www.oxygenxml.com/ns/extension http://www.oxygenxml.com/ns/extension/extensions.xsd">
 
 	<xt:extension id="ClipboardEditorVariable">
-		<xt:location href="https://github.com/paginagmbh/oxygen-plugin_clipboard-editor-variable/releases/download/v0.0.1/clipboardEditorVariable-v0.0.1.zip"/>
-		<xt:version>0.0.1</xt:version>
+		<xt:location href="https://github.com/paginagmbh/oxygen-plugin_clipboard-editor-variable/releases/download/v0.0.2/clipboardEditorVariable-v0.0.2.zip"/>
+		<xt:version>0.0.2</xt:version>
 		<xt:oxy_version>15.0+</xt:oxy_version>
 		<xt:type>plugin</xt:type>
 		<xt:author>pagina GmbH Publikationstechnologien | www.pagina-online.de</xt:author>
@@ -15,9 +15,13 @@
 			<h1>${clipboard} editor variable for oXygen</h1>
 			<p>This plugin adds support for new editor variable ${clipboard} which can be used to access clipboard content in plain text.</p>
 			<p>When using ${clipboard} (e.g. in a code template) it will insert the contents from your clipboard in plain text.</p>
-			<p>The editor variable may be used in all contexts where oXygen allows to use editor variables. However it will not show up in the context menu of the "green arrow button variable chooser"!</p>
+			<p>The editor variable may be used in all contexts where oXygen allows to use editor variables. When using oXygen 18.1 or above it will also show up in the context menu of the "green arrow"" variable chooser!</p>
 			<hr/>
 			<h2>Changelog</h2>
+			<h3>Version 0.0.2 (2016-10-28)</h3>
+			<ul>
+				<li>Supports the new oXygen 18.1 API to display the ${clipboard} editor variable in all editor variable insertion dialogs</li>
+			</ul>
 			<h3>Version 0.0.1 (2016-04-08)</h3>
 			<ul>
 				<li>initial release</li>

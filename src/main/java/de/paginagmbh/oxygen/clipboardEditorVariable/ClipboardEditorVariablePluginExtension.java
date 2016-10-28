@@ -5,9 +5,12 @@ import java.awt.datatransfer.Clipboard;
 import java.awt.datatransfer.DataFlavor;
 import java.awt.datatransfer.UnsupportedFlavorException;
 import java.io.IOException;
+import java.util.ArrayList;
+import java.util.List;
 
 import ro.sync.exml.plugin.workspace.WorkspaceAccessPluginExtension;
 import ro.sync.exml.workspace.api.standalone.StandalonePluginWorkspace;
+import ro.sync.exml.workspace.api.util.EditorVariableDescription;
 import ro.sync.exml.workspace.api.util.EditorVariablesResolver;
 
 
@@ -21,6 +24,18 @@ public class ClipboardEditorVariablePluginExtension implements WorkspaceAccessPl
 	@Override
 	public void applicationStarted(StandalonePluginWorkspace pluginWorkspaceAccess) {
 		pluginWorkspaceAccess.getUtilAccess().addCustomEditorVariablesResolver(new EditorVariablesResolver() {
+
+			/**
+			 * @see ro.sync.exml.workspace.api.util.EditorVariablesResolver#getCustomResolverEditorVariableDescriptions()
+			 * @since 18.1.0.0
+			 */
+			@Override
+			public List<EditorVariableDescription> getCustomResolverEditorVariableDescriptions() {
+				List<EditorVariableDescription> customEditorVariables = new ArrayList<EditorVariableDescription>();
+				customEditorVariables.add(new EditorVariableDescription("${clipboard}", "Inserts the content from your clipboard in plain text"));
+				return customEditorVariables;
+			}
+
 			/**
 			 * @see ro.sync.exml.workspace.api.util.EditorVariablesResolver#resolveEditorVariables(java.lang.String, java.lang.String)
 			 */
