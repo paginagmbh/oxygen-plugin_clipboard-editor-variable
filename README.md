@@ -6,7 +6,9 @@ This plugin adds support for new editor variable `${clipboard}` which can be use
 When using `${clipboard}` (e.g. in a code template) it will insert the contents from your clipboard in **plain text**.
 
 The editor variable may be used in all contexts where oXygen allows to use editor variables.
-When using oXygen 18.1 or above it will also show up in the context menu of the "green arrow"" variable chooser!
+When using oXygen 18.1 or above it will also show up in the context menu of the "green arrow"" variable chooser:
+
+![`${clipboard}` in oXygen 18.1 custom variables list](/files/screenshot-18-1.png?raw=true)
 
 
 Download & Install
